@@ -13,12 +13,20 @@ player1 = Player("", 20, 4, "")
 
 world1 = Choice_World("", "")
 
-print("\n--------------------------------\n")
+print(" \n ▒█▀█▀█▒█▀█▒▒█▀█▒▄███▄▒"
+                "░█▀█▀█░█▀██░█▀█░█▄█▄█░"
+                "░█▀█▀█░█▀████▀█░█▄█▄█░"
+                "████████▀█████████████\n"
+                )
 # Capsule Info (Oxygene, Gravity, Température, Carbonne)
 status1 = Capsule(100, 20, -10, 2.0)
 # Armure Info (Shield, STH2O, StatOxygene )
 armor1 = Armor(100, 5.0, status1.oxygene)
-print("\n--------------------------------\n")
+print(" \n ▒█▀█▀█▒█▀█▒▒█▀█▒▄███▄▒"
+                "░█▀█▀█░█▀██░█▀█░█▄█▄█░"
+                "░█▀█▀█░█▀████▀█░█▄█▄█░"
+                "████████▀█████████████\n"
+                )
 
 interface = Interface("", armor1.shield, armor1.sth2o, "")
 

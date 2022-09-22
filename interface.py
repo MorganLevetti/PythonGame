@@ -9,7 +9,7 @@ class Interface:
         Armor.sth2o = sth2o
         self.choix = choix
         self.explorechoix = explorechoix
-        print('Vous etes sur la planète, que voulez vous faire ?')
+        print('\nVous etes sur la planète, que voulez vous faire ?\n')
         print('1: Explorer')
         print('2: Voir ExoCombinaison')
         print('3: Exit')
