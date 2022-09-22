@@ -10,15 +10,15 @@ class Choice_World:
         if niveau == "1":
             print("Enter Name World1 :")
             wname = input()
-            print("Bienvenue sur la planète", wname)
+            print("\nBienvenue sur la planète", wname)
         elif niveau == "2":
             print("Enter Name World2 :")
             wname = input()
-            print("Bienvenue sur la planète", wname)
+            print("\nBienvenue sur la planète", wname)
         elif niveau == "3":
             print("Enter Name World3 :")
             wname = input()
-            print("Bienvenue sur la planète", wname)
+            print("\nBienvenue sur la planète", wname)
         else:
             print('Incorrect')
     

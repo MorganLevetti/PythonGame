@@ -7,11 +7,18 @@ from interface import Interface
 
 
 # Player 1 Infos (Name, Health, Attack)
+print(  "╔╗╔╗╔═╗╔╗─╔╗─╔═╗\n"
+        "║╚╝║║╦╝║║─║║─║║║\n"
+        "║╔╗║║╩╗║╚╗║╚╗║║║\n"
+        "╚╝╚╝╚═╝╚═╝╚═╝╚═╝\n")
 player1 = Player("", 20, 4, "")
 # Player 2 Info
 # player2 = Player("", 20, 2, "")
 
 world1 = Choice_World("", "")
+
+if world1.niveau == 1:
+    print("test world")
 
 print(" \n ▒█▀█▀█▒█▀█▒▒█▀█▒▄███▄▒"
                 "░█▀█▀█░█▀██░█▀█░█▄█▄█░"

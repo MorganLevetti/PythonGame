@@ -1,23 +1,25 @@
 class Player:
+
+    
   
     def __init__(self, name, health, attack, classe):
         self.name = name
         self.health = health
         self.attack = attack
         self.classe = classe
-        print("Enter your name:")
+        print("Enter your name :")
         name = input()
-        print("Enter your Class:")
+        print("\nEnter your Class :")
         print("1: Capitaine")
         print("2: Ingénieur")
         print("3: Cannonier")
         classe = input()
         if classe == "1":
-            print("Vous avez choisi 'Capitaine', vous diriger l'expédition !")
+            print("\nVous avez choisi 'Capitaine', vous diriger l'expédition !")
         if classe == "2":
-            print("Vous avez choisi 'Ingénieur', la Mécanique est votre Dada !")
+            print("\nVous avez choisi 'Ingénieur', la Mécanique est votre Dada !")
         if classe == "3":
-            print("Vous avez choisi 'Cannonier', explosion, munitions et extermination !")
+            print("\nVous avez choisi 'Cannonier', explosion, munitions et extermination !")
         print('Bienvenue', name, 'Poste :',classe,'/ Point de vie:', health, 'Attaque: ', attack,'\n')
 
     def get_name(self):
