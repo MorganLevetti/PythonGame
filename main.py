@@ -17,8 +17,6 @@ player1 = Player("", 20, 4, "")
 
 world1 = Choice_World("", "")
 
-if world1.niveau == 1:
-    print("test world")
 
 print(" \n ▒█▀█▀█▒█▀█▒▒█▀█▒▄███▄▒"
                 "░█▀█▀█░█▀██░█▀█░█▄█▄█░"
