@@ -33,7 +33,7 @@ print(" \n ▒█▀█▀█▒█▀█▒▒█▀█▒▄███▄▒"
                 "████████▀█████████████\n"
                 )
 
-interface = Interface("", armor1.shield, armor1.sth2o, "")
+interface = Interface("", armor1.shield, armor1.sth2o, "", player1.name, world1.wname)
 
 
 

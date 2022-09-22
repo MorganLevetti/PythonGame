@@ -1,7 +1,5 @@
 class Player:
 
-    
-  
     def __init__(self, name, health, attack, classe):
         self.name = name
         self.health = health
